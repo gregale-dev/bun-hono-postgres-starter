@@ -1,0 +1,16 @@
+hosting:
+  port: 8080
+  health: /healthz
+
+release:
+  command: bun run src/migrate.ts
+
+databases:
+  - database: bun-hono-db
+    env: DATABASE_URL
+    access: read_write
+    create:
+      postgres_major: 17
+  - database: bun-hono-db
+    env: MIGRATION_DATABASE_URL
+    access: migration
