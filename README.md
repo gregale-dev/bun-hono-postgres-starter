@@ -1,5 +1,7 @@
 # Bun + Hono + Postgres Starter (Scale to Zero)
 
+[![Deploy on Gregale](https://gregale.dev/deploy-badge.svg)](https://gregale.dev/deploy?repo=https://github.com/gregale-dev/bun-hono-postgres-starter)
+
 A fast TypeScript REST API built with [Bun](https://bun.sh),
 [Hono](https://hono.dev), and managed PostgreSQL 17 on
 [Gregale](https://gregale.dev):
