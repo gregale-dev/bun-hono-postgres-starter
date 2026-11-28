@@ -40,6 +40,13 @@ gregale deploy --name my-hono-api --size small
 `gregale.yaml` provisions the managed PostgreSQL 17 database (`bun-hono-db`),
 runs `bun run src/migrate.ts` before cutover, and serves `/items` on port `8080`.
 
+## Guides
+
+On [gregale.dev](https://gregale.dev):
+
+- [Host a Bun and Hono API with PostgreSQL and ~1s idle pause](https://gregale.dev/articles/host-bun-hono-postgres-api)
+- [Managed Postgres pricing compared: Neon, Supabase, Render, Railway, Fly.io, Heroku, DigitalOcean](https://gregale.dev/articles/managed-postgres-pricing-compared)
+
 ## License
 
 MIT — see [LICENSE](./LICENSE).
